@@ -1,0 +1,56 @@
+RewriteEngine on
+
+## API
+RewriteRule ^API/Login$ ./API/Actions/Login.php [L]
+RewriteRule ^API/Register$ ./API/Actions/Register.php [L]
+RewriteRule ^API/News$ ./API/Actions/News.php [L]
+RewriteRule ^API/Profile$ ./API/Actions/Profile.php [L]
+RewriteRule ^API/Message$ ./API/Actions/Message.php [L]
+RewriteRule ^API/Notifications$ ./API/Actions/Notifications.php [L]
+
+## PAGES
+RewriteRule ^login$ ./pages/Login.php [L]
+RewriteRule ^logout$ ./pages/Logout.php [L]
+RewriteRule ^profile$ ./pages/Profile.php [L]
+RewriteRule ^dashboard$ ./pages/Dashboard.php [L]
+RewriteRule ^logs$ ./pages/Logs.php [L]
+
+#->Notification PAGES
+RewriteRule ^send-notification$ ./pages/Notification.php?action=send [L]
+RewriteRule ^notification-logs$ ./pages/Notification.php?action=list [L]
+RewriteRule ^delete-notification$ ./pages/Notification.php?action=delete [L]
+
+#->News PAGES
+RewriteRule ^list-news$ ./pages/News.php?action=list [L]
+RewriteRule ^add-news$ ./pages/News.php?action=add [L]
+RewriteRule ^delete-news$ ./pages/News.php?action=delete [L]
+RewriteRule ^edit-news$ ./pages/News.php?action=detail [L]
+
+#->Authorize PAGES
+RewriteRule ^list-auth$ ./pages/Auth.php?action=list [L]
+RewriteRule ^delete-auth$ ./pages/Auth.php?action=delete [L]
+RewriteRule ^add-auth$ ./pages/Auth.php?action=add [L]
+RewriteRule ^edit-auth$ ./pages/Auth.php?action=detail [L]
+
+#->Messages PAGES
+RewriteRule ^messages$ ./pages/Messages.php?action=list [L]
+RewriteRule ^delete-messages$ ./pages/Messages.php?action=delete [L]
+RewriteRule ^read-message$ ./pages/Messages.php?action=detail [L]
+
+#->Categories PAGES
+RewriteRule ^list-categories$ ./pages/Categories.php?action=list [L]
+RewriteRule ^delete-category$ ./pages/Categories.php?action=delete [L]
+RewriteRule ^add-category$ ./pages/Categories.php?action=add [L]
+RewriteRule ^edit-category$ ./pages/Categories.php?action=detail [L]
+
+#->Users PAGES
+RewriteRule ^delete-user$ ./pages/Users.php?action=delete [L]
+RewriteRule ^add-user$ ./pages/Users.php?action=add [L]
+RewriteRule ^edit-user$ ./pages/Users.php?action=detail [L]
+RewriteRule ^list-users$ ./pages/Users.php?action=list [L]
+
+#->Authorized Users PAGES
+RewriteRule ^delete-authorized-user$ ./pages/AuthorizedUsers.php?action=delete [L]
+RewriteRule ^add-authorized-user$ ./pages/AuthorizedUsers.php?action=add [L]
+RewriteRule ^edit-authorized-user$ ./pages/AuthorizedUsers.php?action=detail [L]
+RewriteRule ^list-authorized-users$ ./pages/AuthorizedUsers.php?action=list [L]

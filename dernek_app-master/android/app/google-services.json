@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "394388732222",
+    "firebase_url": "https://dernekapp-c259a.firebaseio.com",
+    "project_id": "dernekapp-c259a",
+    "storage_bucket": "dernekapp-c259a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394388732222:android:fcfadd87b6548e3dd1946f",
+        "android_client_info": {
+          "package_name": "com.sucullu.dernek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394388732222-t8lq56snk0qbghij48treeo7cf5316a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQtEMdP8Qh7Oz_DTgXGN6R4r0UvCF-EnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394388732222-78o18upug433sts3o22v2tbbk4ucsnjg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "394388732222-dp8gbccb2ljb5hmvglql8pj5iodtd4r4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sucullu.dernekApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
